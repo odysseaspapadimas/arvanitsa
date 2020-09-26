@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <script src="https://kit.fontawesome.com/9391a418db.js" crossorigin="anonymous"></script>
+
+  <title>Arvanitsa Restaurant-Cafe</title>
+</head>
+
+<body>
+  <nav class="main-nav">
+    <ul class="menu">
+      <li><a href="#menu">Μενού</a></li>
+      <li><a href="#map">Χάρτης</a></li>
+      <li><a href="#contact">Επικοινωνία</a></li>
+    </ul>
+
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+
+  <header class="showcase">
+    <div class="container">
+      <h1>Το καλύτερο μέρος για να απολαύσεις το φαγητό σου.</h1>
+      <p>
+        Για να απολαύσετε λαχταριστούς μεζέδες, εξαιρετικά ορετικά και υπέροχο
+        κρασί σε ένα ζεστό, διασκεδαστικό και φιλόξενο περιβάλλον.
+      </p>
+      <div class="ctas">
+        <a href="#menu" class="btn">Μενού</a>
+        <a href="#map" class="btn">Χάρτης</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="founded">
+    <div>
+      <h1>Καλωσήρθατε στην Αρβανίτσα.</h1>
+      <p>
+        Μία ταβέρνα 8 χιλιόμετρα μετά το χωριό Κυριάκι Βοιωτίας με θέα το
+        καταπράσινο δάσος του Ελικώνα.
+      </p>
+    </div>
+    <img src="img/arv1.jpg" alt="Δάσος Ελικώνας" />
+  </section>
+
+  <section id="menu">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="menu-head swiper-slide">
+          <h1>Εδώ μπορείτε να δείτε όλα τα πιάτα του μενού μας.</h1>
+          <img src="img/swipe.png" alt="Swipe Left">
+        </div>
+        <div class="swiper-slide">
+          <img class="menu-img" src="img/a.png" alt="Σελίδα 1" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/b.png" alt="Σελίδα 2" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/c.png" alt="Σελίδα 3" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/d.png" alt="Σελίδα 4" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/e.png" alt="Σελίδα 5" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/f.png" alt="Σελίδα 6" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/g.png" alt="Σελίδα 7" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/h.png" alt="Σελίδα 8" />
+        </div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <section id="map">
+    <div class="map-head">
+      <h1>Που θα μας βρείτε!</h1>
+    </div>
+    <!-- AIzaSyCXACVc5GHxv7zIUlASyytXXhroMbn3Lhs -->
+    <iframe height="375px" width="100%" frameborder="0" style="border: 0"
+      src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCXACVc5GHxv7zIUlASyytXXhroMbn3Lhs&q=Arvanitsa+Restaurant-Cafe"
+      allowfullscreen>
+    </iframe>
+  </section>
+
+  <section id="contact">
+    <div class="heading">
+      <h1>Φόρμα Επικοινωνίας</h1>
+      <p>Μπορείτε να μας στείλετε ενα μήνυμα με ό,τι ερώτηση έχετε!</p>
+    </div>
+    <div class="contact-form">
+      <form action="https://formspree.io/xrgyvwwg" method="POST">
+        <div class="input">
+          <input type="text" name="name" required="required" placeholder="Ονοματεπώνυμο" />
+        </div>
+        <div class="input">
+          <input type="number" name="number" required="required" placeholder="Κινητό" />
+        </div>
+        <div class="input">
+          <input type="email" name="email" required="required" placeholder="E-mail" />
+        </div>
+        <div class="input">
+          <textarea required="required" name="message" placeholder="Σχόλιο"></textarea>
+        </div>
+        <div class="input">
+          <input class="submit-btn" type="submit" value="Αποστολή" />
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <h1>Επικοινωνία</h1>
+    <ul>
+      <li>Αρβανίτσα</li>
+      <li>Κυριάκι Βοιωτίας</li>
+      <li>Υπεύθυνος: Κόλλιας Γεώργιος</li>
+      <li>Τηλέφωνο: <a href="tel:+30 6972831279">6972831279</a> - <a href="tel:+30 6943903813">6943903813</a></li>
+      <li></li>
+    </ul>
+
+    <h1 class="social">Social Media</h1>
+    <a class="fb-link" href="fb://page/1845475365673467"><i class="fab fa-facebook-square fa-2x"></i></a>
+  </footer>
+
+
+
+  <!-- Smooth Scroll Plugin -->
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js">
+  </script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]', {
+      speed: 500,
+      speedAsDuration: true
+    });
+  </script>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/9391a418db.js" crossorigin="anonymous"></script>
+
+  <script>
+    const newSwiper = new Swiper(".swiper-container", {
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+      },
+    });
+  </script>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
